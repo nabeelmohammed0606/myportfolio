@@ -48,11 +48,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html" class="active">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="{{ route('home') }}">Home</a></li>
+          <li><a href="{{ route('about') }}">About</a></li>
+          <li><a href="{{ route('resume') }}">Resume</a></li>
+          <li><a href="{{ route('services') }}">Services</a></li>
+          <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -70,7 +70,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+           <li><a href="{{ route('contact') }}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -93,7 +93,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>Motivated and disiplined individual with diverse certifications, leadership training, and practical experience. Currently persuing a Bachelor's degree in Inforamtion Technology, with hands-on experience in web development, networking and project collaboration. Seeking opportunities to further develop technical expertise while contributing to organizational sucess</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -107,17 +107,17 @@
 
               <div class="resume-content">
                 <article class="education-item">
-                  <h4>Master of Computer Science</h4>
-                  <h5>2019 - 2021</h5>
-                  <p class="institution"><em>Stanford University, California</em></p>
-                  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                  <h4>BSc Information Technology</h4>
+                  <h5>2025 - Current</h5>
+                  <p class="institution"><em>CTS College</em></p>
+                  <p>Furthering knowledge deeper into the future of the world, Information Technology</p>
                 </article>
 
                 <article class="education-item">
-                  <h4>Bachelor of Computer Science</h4>
-                  <h5>2015 - 2019</h5>
-                  <p class="institution"><em>Massachusetts Institute of Technology</em></p>
-                  <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis delectus nihil temporibus sapiente</p>
+                  <h4>Certificate in Software Engineering</h4>
+                  <h5>2025 - Current</h5>
+                  <p class="institution"><em>CTS College</em></p>
+                  <p>Learning and implementing Networking, Web Design, Database Design, Java and Python Programming</p>
                 </article>
               </div>
             </div><!-- End Education Section -->
@@ -142,14 +142,14 @@
                 </div>
 
                 <div class="skill-item">
-                  <h4>UI/UX Design</h4>
+                  <h4> Networking Fundamentals</h4>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
                 <div class="skill-item">
-                  <h4>Project Management</h4>
+                  <h4>Database Design Fundamentals</h4>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
@@ -165,38 +165,38 @@
 
               <div class="resume-content">
                 <article class="experience-item">
-                  <h4>Senior Software Engineer</h4>
-                  <h5>2021 - Present</h5>
-                  <p class="company"><em>Google, Mountain View, CA</em></p>
+                  <h4>Web Developer Intern</h4>
+                  <h5>2025 - Present</h5>
+                  <p class="company"><em>Ministry of Sports and Youth Affairs </em></p>
                   <ul>
-                    <li>Lead in the development, implementation, and optimization of web applications using modern technologies</li>
-                    <li>Delegate tasks to the 7 members of the development team and provide counsel on all aspects of the project</li>
-                    <li>Supervise the assessment of all web applications, mobile apps, and software platforms for quality and efficiency</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Worked with senior developers on multiple of the Ministry's projects</li>
+                    <li>Learn't and implimented how to efficently create and maintain forms with databases</li>
+                    <li>Read and debugged from log files</li>
+                    <li>Stress tested applications</li>
                   </ul>
                 </article>
 
                 <article class="experience-item">
-                  <h4>Software Engineer</h4>
-                  <h5>2019 - 2021</h5>
-                  <p class="company"><em>Microsoft, Redmond, WA</em></p>
+                  <h4>Youth Parlimentarian</h4>
+                  <h5>2023 - 2025 </h5>
+                  <p class="company"><em>Couva Chamber of Commerce</em></p>
                   <ul>
-                    <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements)</li>
-                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                    <li>Recommended and consulted with clients on the most appropriate software platforms</li>
-                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                    <li>Took Part in multiple debates</li>
+                    <li>Learn't public speaking skills</li>
+                    <li>Learn't leadership skills via various roles in the parliment</li>
+                    <!-- <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
                   </ul>
                 </article>
 
                 <article class="experience-item">
-                  <h4>Junior Software Developer</h4>
-                  <h5>2017 - 2019</h5>
-                  <p class="company"><em>Apple Inc., Cupertino, CA</em></p>
+                  <h4>Cadet</h4>
+                  <h5>2018 - 2021</h5>
+                  <p class="company"><em>Trinidad and Tobago Cadet Force</em></p>
                   <ul>
-                    <li>Implemented responsive websites and web applications using modern JavaScript frameworks</li>
-                    <li>Collaborated with senior developers to maintain and optimize existing applications</li>
-                    <li>Participated in code reviews and contributed to team documentation efforts</li>
-                    <li>Assisted in the development of RESTful APIs and microservices</li>
+                    <li>From 2018-2020 served in the Aviation Cadet Force</li>
+                    <li>From 2020-2021 served in both the Aviation and Infantry Cadet Force Simultaneously</li>
+                    <li>Participated in multiple events over the course of the three years where dicipline was necessary</li>
+                    <!-- <li></li> -->
                   </ul>
                 </article>
               </div>
