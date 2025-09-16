@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Test</title>
-  <!-- Bootstrap CSS (CDN) -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-</head>
-<body class="p-3">
+@extends('layouts.base')
+@section('headerfooter')
   
-  <h1 class="text-danger mb-1">Test</h1>
 
-</body>
-</html>
+<h1 class="text-danger mb-1">Test</h1>
+
+@endsection
+
+  
+
+
+
