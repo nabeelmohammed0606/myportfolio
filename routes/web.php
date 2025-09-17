@@ -35,3 +35,7 @@ Route::get('/services', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
+// CONTACT
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
