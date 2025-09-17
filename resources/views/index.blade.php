@@ -22,10 +22,10 @@
               <a href="contact.html" class="btn btn-outline">Get In Touch</a>
             </div>
             <div class="social-links" data-aos="fade-up" data-aos-delay="600">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-github"></i></a>
-              <a href="#"><i class="bi bi-dribbble"></i></a>
+              <a href="https://x.com/NabeelMoha28509"><i class="bi bi-twitter"></i></a>
+              <a href="https://tt.linkedin.com/in/nabeel-mohammed-11ba63363"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/nabeelmohammed0606"><i class="bi bi-github"></i></a>
+              <!-- <a href="#"><i class="bi bi-dribbble"></i></a> -->
             </div>
           </div>
         </div>
